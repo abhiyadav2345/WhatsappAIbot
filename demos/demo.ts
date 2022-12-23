@@ -30,6 +30,7 @@ async function main() {
 }
 
 main().catch((err) => {
+  // error management
   console.error(err)
   process.exit(1)
 })
